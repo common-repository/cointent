@@ -1,0 +1,207 @@
+#adminmenu .toplevel_page_cointent .wp-menu-image img {
+	padding: 4px 0 0 4px;
+}
+#adminmenu .current.toplevel_page_cointent .wp-menu-image img {
+	padding: 4px 0 0 4px;
+	opacity: 1;
+}
+#cointent-admin .button {
+	margin: 0 20px;
+}
+#cointent-admin {
+	margin-right: 20px;
+	font-family: 'Lato';
+	font-weight: 400;
+	font-size:14px;
+}
+#cointent-admin p {
+	font-size:14px;
+}
+#cointent-admin .triangle {
+
+	border-top: 8px solid rgb(217, 96, 117);
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+
+}
+#cointent-admin .ct-section {
+	max-width: 1100px;
+}
+#cointent-admin .ct_close {
+	position:absolute;
+	top:10px;
+	right:10px;
+}
+#cointent-admin .ct_close img {
+	height: 35px;
+	opacity: 0.5;
+}
+#cointent-admin .ct_close img:hover {
+	cursor:pointer;
+}
+#cointent-admin .ct_flipped {
+	transform: rotate(180deg);
+}
+#cointent-admin .toggle_tray {
+	padding:10px;
+	position: absolute;
+	top: 8px;
+	right: 10px;
+}
+#cointent-admin .submit-button {
+	display:inline-block;
+	vertical-align: middle;
+}
+#cointent-admin .submit {
+	margin:0;
+	padding:5px 25px;
+}
+#cointent-admin .ct_postbox_header {
+	position:relative;
+}
+
+#cointent-admin .ct_postbox_header p {
+	margin: 5px 12px 10px;
+}
+#cointent-admin .ct_postbox_header h4 {
+	display: inline-block;
+	font-size: 16px;
+	vertical-align: middle;
+	color: #A1A1A1;
+	padding-left: 20px;
+}
+#cointent-admin  .postbox {
+	border-radius: 4px;
+	border: 1px solid #D1D1D1;
+	box-shadow: 0 1px 3px rgba(0,0,0,.04);
+}
+#cointent-admin table {
+	border-spacing: 0;
+	width:100%;
+	border-top: 1px solid #9A9A9A;
+}
+#cointent-admin table.cointent_main_table > tbody > tr > td:first-child {
+	max-width:300px;
+	padding-right:30px;
+	border-right:0px;
+}
+
+#cointent-admin table.cointent_main_table > tbody > tr:nth-child(2n) {
+	background-color: #F7F7F7;
+}
+#cointent-admin table.cointent_main_table > tbody > tr:nth-child(2n+1) {
+	background-color: white;
+}
+#cointent-admin td {
+	padding:10px 20px;
+	border-left:1px solid #e6e6e6;
+	vertical-align: middle;
+	min-width: 210px;
+}
+#cointent-admin td.top {
+	vertical-align: top;
+}
+
+
+#cointent-admin tr {
+	border-top:1px solid #4B4B4B;
+}
+#cointent-admin tr:first-child {
+	border-top:0;
+}
+#cointent-admin label {
+	margin: 10px 0;
+	display: inline-block;
+}
+#cointent-admin h4 {
+
+	margin:0;
+	font-size: 14px;
+}
+#cointent-admin  h3 {
+	font-size: 23px;
+	vertical-align: middle;
+	display:inline-block;
+	text-transform: uppercase;
+	color: rgb(30,95,100);
+	font-weight: 300;
+}
+
+#cointent-admin ul {
+
+	margin:0;
+	padding:0;
+}
+#cointent-admin .bold {
+	font-weight: bold;
+}
+#cointent-admin .reference {
+	font-variant: small-caps;
+}
+#cointent-admin .intro_box .header{
+	vertical-align: baseline;
+	font-size: 23px;
+	padding-top: 10px;
+}
+
+#cointent-admin .intro_box .header * {
+	vertical-align: bottom;
+	display:inline-block;
+}
+#cointent-admin .intro_box .header img {
+	height: 30px;
+	margin: 0 0  -6px 6px;
+}
+#cointent-admin .intro_box {
+	max-width:1100px;
+	position:relative;
+	background-color: #FFF1D2;
+	padding:10px;
+	border: 2px solid rgb(238, 181, 112);
+	min-width:400px;
+
+}
+#cointent-admin .intro {
+	max-width:1100px;
+}
+#cointent-admin .error_box {
+	border: 1px solid #ca3333;
+	padding: 20px 10px;
+	margin: 10px 0;
+	background-color: #cd7c6d;
+	color: white;
+	max-width: 1100px;
+}
+
+#cointent-admin .cointent_step_box h3 {
+	padding: 40px 0 0px;
+	font-size: 23px;
+	color: rgb(30,95,100);
+	font-weight: 300;
+}
+#cointent-admin .cointent_step_box h4 {
+	margin-bottom: 15px;
+}
+#cointent-admin .cointent_step_box {
+	display: inline-block;
+	width: 31%;
+	box-sizing: border-box;
+	border: 1px solid #EADAB6;
+	background-color: white;
+	padding: 10px;
+	vertical-align: top;
+	margin: 1%;
+	box-shadow: inset 0 0 2px rgba(242, 237, 225, 1);
+	min-height:212px;
+	max-width: 310px;
+}
+#cointent-admin .cointent_step_box div {
+	 float:right;
+
+ }
+#cointent-admin .cointent_step_box img {
+	height:65px;
+}
+#cointent-admin .cointent_step_box > p {
+	margin:0;
+}
